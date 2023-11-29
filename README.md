@@ -12,6 +12,4 @@ streamlit run dashboard.py
 ```
 
 ## Run on streamlit cloud
-```
 https://humamfa-bikesharing.streamlit.app/
-```
