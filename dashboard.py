@@ -27,7 +27,7 @@ def create_users_by_workdays_df(df):
 
     return users_by_workdays_df
 
-day_df = pd.read_csv("day.csv")
+day_df = pd.read_csv("data/day.csv")
 
 day_df.sort_values(by="dteday", inplace=True)
 day_df.reset_index(inplace=True)
